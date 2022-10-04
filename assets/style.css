@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(7, 245, 126, 0.41);
+}
+
+#main #header {
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  background-color: rgba(7, 245, 126, 0.41);
+  align-items: center;
+}
+#main #header a .img_logo {
+  margin-left: 30px;
+}
+#main #header #nav {
+  right: 0;
+  position: absolute;
+  margin-top: 16px;
+  margin-right: 100px;
+  display: flex;
+}
+#main #header #nav li {
+  vertical-align: middle;
+  margin: 0 40px;
+  list-style-type: none;
+}
+#main #header #nav li a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main #carouselExampleControls {
+  top: 0;
+  position: relative;
+  width: 100%;
+  /* height: 400px; */
+}
+#main #carouselExampleControls img {
+  height: 98vh;
+}
+#main #card {
+  margin-top: 100px;
+  height: 400px;
+}
+#main #card #text_card {
+  margin: 20px 0 20px 0;
+  margin-left: 60px;
+}
+#main #card #text_card h2 {
+  font-size: 50px;
+  margin: 0 0 80px 0;
+}
+#main #card .wrap_card {
+  display: flex;
+  justify-content: space-around;
+}
+#main #card .wrap_card .card_con {
+  position: relative;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+#main #card .wrap_card .card_con:hover {
+  transition: 0.5s;
+  border-radius: 20px;
+  box-shadow: -20px -10px 5px -5px #888888;
+}
+#main #card .wrap_card .card_con img {
+  border-radius: 20px;
+  width: 300px;
+}
+#main #card .wrap_card .card_con h3 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+  bottom: 0;
+  position: absolute;
+}
+#main #wrap_small {
+  margin: 0 200px 100px 0;
+}
+#main #wrap_small h1 {
+  color: darkblue;
+  text-align: right;
+  font-size: 60px;
+}
+#main #slider_2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+#main #slider_2 #carouselExampleFade {
+  width: 500px;
+  height: 550px;
+  position: relative;
+  z-index: -1;
+  margin-left: 40px;
+  box-shadow: -20px -10px 5px -5px #888888;
+  border-radius: 20px;
+}
+#main #slider_2 #carouselExampleFade img {
+  width: 200px;
+  border-radius: 20px;
+  height: 550px;
+}
+#main #slider_2 #text_slidershow {
+  width: 500px;
+}
+#main #slider_2 #text_slidershow h1 {
+  line-height: 30px;
+  text-decoration: underline;
+  color: orangered;
+}
+#main #Offers {
+  height: 400px;
+}
+#main #Offers #wrap_Offers {
+  display: flex;
+  justify-content: space-around;
+}
+#main #Offers #wrap_Offers .wrap_Offers_1 {
+  padding: 20px;
+  width: 740px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  display: flex;
+  background-color: rgb(240, 240, 240);
+  background: #f1f1f1;
+  transition: 0.5s;
+}
+#main #Offers #wrap_Offers .wrap_Offers_1:hover {
+  transition: 0.5s;
+  box-shadow: 10px 5px 3px 3px rgb(69, 69, 69);
+}
+#main #Offers #wrap_Offers .wrap_Offers_1 img {
+  width: 300px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+#main #Offers #wrap_Offers .wrap_Offers_1 button {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: aqua;
+  color: #000;
+  border: none;
+  margin: 25px 0 0 30px;
+  box-shadow: 0 0 10px #000;
+  transition: 0.4s;
+}
+#main #Offers #wrap_Offers .wrap_Offers_1 button:hover {
+  outline: none;
+  transition: 0.4s;
+  box-shadow: 0 0 10px #000;
+  background-color: rgba(255, 255, 255, 0.867);
+}
+#main #resort_area {
+  height: 600px;
+}
+#main #resort_area .heading_resort {
+  margin-bottom: 100px;
+}
+#main #resort_area .heading_resort h1 {
+  color: rgb(9, 101, 101);
+  font-size: 60px;
+  margin-left: 60px;
+}
+#main #resort_area .wrap_card {
+  display: flex;
+  justify-content: space-around;
+}
+#main #resort_area .wrap_card .card_con {
+  position: relative;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+#main #resort_area .wrap_card .card_con:hover {
+  transition: 0.5s;
+  border-radius: 20px;
+  box-shadow: -20px -10px 5px -5px #888888;
+}
+#main #resort_area .wrap_card .card_con img {
+  border-radius: 20px;
+  width: 300px;
+}
+#main #resort_area .wrap_card .card_con h3 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+  bottom: 0;
+  position: absolute;
+}
+#main #back_contact {
+  height: 600px;
+  margin-left: 30px;
+  position: relative;
+}
+#main #back_contact img {
+  border-radius: 30px;
+  width: 1000px;
+  height: 500px;
+  opacity: 1;
+  transition: 0.5s;
+  box-shadow: 20px 10px 4px 3px rgb(108, 106, 106);
+}
+#main #back_contact img:hover {
+  border-radius: 30px;
+  transition: 0.5s;
+  box-shadow: 10px 5px 3px 3px rgb(69, 69, 69);
+}
+#main #back_contact #text_back_contact {
+  top: 0;
+  margin-top: 200px;
+  bottom: 0;
+  left: 200px;
+  position: absolute;
+  color: #fff;
+}
+#main #back_contact #text_back_contact h2 {
+  font-size: 50px;
+}
+#main #back_contact #text_back_contact p {
+  font-size: 20px;
+}
+#main #card_community {
+  height: 500px;
+}
+#main #card_community h1 {
+  margin: 0 0 50px 30px;
+}
+#main #card_community #wrap_card_community {
+  display: flex;
+  justify-content: space-around;
+}
+#main #card_community #wrap_card_community .main_card_community {
+  width: 300px;
+  height: 350px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #ededed;
+  transition: 0.4s;
+}
+#main #card_community #wrap_card_community .main_card_community:hover {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  transition: 0.5s;
+  box-shadow: 20px 5px 3px 3px rgb(69, 69, 69);
+}
+#main #card_community #wrap_card_community .main_card_community img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 300px;
+  height: 200px;
+}
+#main #card_community #wrap_card_community .main_card_community .text_card_community {
+  padding: 20px;
+}
+#main #footer_main {
+  height: 600px;
+  background-image: url(./assets/img/Mian_footer_2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#main #footer {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+}
+#main #footer #wrap_footer {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+#main #footer #wrap_footer .img_footer {
+  width: 100px;
+  height: 80px;
+}
+#main #footer #wrap_footer .thongtin_footer p {
+  color: #fff;
+}
+#main #footer #wrap_foter_2 {
+  margin-top: 40px 0 40px 0;
+  display: flex;
+  justify-content: space-around;
+}
+#main #footer #wrap_foter_2 #munber_footer p {
+  color: #fff;
+}
+#main #footer #wrap_foter_2 #icon_footer i {
+  font-size: 30px;
+  padding: 0 30px;
+  color: #f1f1f1;
+}/*# sourceMappingURL=style.css.map */
